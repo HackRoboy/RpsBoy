@@ -1,0 +1,6 @@
+<launch>
+
+  <node pkg="rps_boy" name="messager" type="rps_messager.py" />
+  <node pkg="rps_boy" name="listener" type="rps_listener.py" />
+
+</launch>
